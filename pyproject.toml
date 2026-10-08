@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pt-helpers"
+version = "1.1.0"
+description = "Helper utilities for PT applications"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+    {name = "pt-team", email = "pt-team@test.com"}
+]
+
+[project.urls]
+Homepage = "https://github.com/pt-team/pt-helpers"
